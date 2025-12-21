@@ -1,0 +1,88 @@
+
+@media(max-width:768px) {
+    
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .first {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftsection, .rightsection, .leftsecond, .rightsecond {
+        width: 100%;
+    }
+
+    .rightsecond{
+        padding: 20px 0;
+    }
+
+    .socialHandels ,.buttons_1{
+        justify-content: center;
+    }
+
+    .stats-section {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-section .stat-card:nth-child(3) {
+        grid-column: auto;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .sub_title {
+        font-size: 28px;
+    }
+
+    .small_1 {
+        font-size: 18px;
+    }
+
+    .buttons_1 {
+        justify-content: center;
+    }
+
+    .skills-list img {
+        width: 80px;
+        margin: 8px 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        font-size: 15px;
+    }
+
+    .name {
+        font-size: 34px;
+    }
+
+    .sub_title {
+        font-size: 22px;
+    }
+
+    .small_1 {
+        font-size: 16px;
+    }
+
+    .buttons_1 li{
+        font-size: 15px;
+        padding: 8px 14px;
+    }
+
+    .project-card img {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .skills-list img {
+        width: 60px;
+        margin: 6px 3px;
+    }
+
+}
