@@ -252,13 +252,20 @@ a {
 }
 
 .skills-list img {
-    width: 70px;
+    width: 50px;
     margin: 10px 5px;
 }
 
 .skills-list img:hover {
     opacity: 0.7;
     transform: translateY(-8px);
+}
+
+.skills-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 /* ===== PROJECTS SECTION (SCALABLE) ===== */
@@ -281,6 +288,10 @@ a {
     padding: 22px;
     box-shadow: 0 0 14px rgba(0, 150, 255, 0.25);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-tech {
+    margin: 10px 0px;
 }
 
 .project-card:hover {
