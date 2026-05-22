@@ -48,7 +48,7 @@
     }
 
     .skills-list img {
-        width: 80px;
+        width: 50px;
         margin: 8px 4px;
     }
 }
@@ -80,8 +80,16 @@
         max-width: 280px;
     }
 
+    .skill-group {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 5px;
+        gap: 2px;
+    }
+
     .skills-list img {
-        width: 60px;
+        width: 40px;
         margin: 6px 3px;
     }
 
